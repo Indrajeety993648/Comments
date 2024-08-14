@@ -34,7 +34,6 @@ const CommentList = () => {
   return (
     <div className="comment-list">
       <div className="sort-by">
-        <label htmlFor="sort">Sort by:</label>
         <select id="sort" value={sortOrder} onChange={handleSortChange}>
           <option value="newest">Newest</option>
           <option value="asc">Ascending</option>
